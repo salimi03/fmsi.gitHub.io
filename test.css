@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
+header{
+    height: 10vh;
+    width: 100vw;
+}
+h1{
+    font-family: 'Playball', cursive;
+}
+.navbar{
+    position: fixed;
+    padding: 20px;
+    height: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 4px 5px black;
+    background-color: rgba(255, 255, 255, 0.578);
+}
+.lego{
+    font-size: 2em;
+    font-weight: bolder;
+    padding:0; 
+    margin: -20px;
+    color: black;
+}
+.lest ul{
+    margin: 0 100px;
+}
+nav .lest ul {
+    
+    display: flex;
+    align-items: center;
+    
+}
+nav .lest ul li{
+    margin: 0 16px;
+   
+}
+nav .lest ul li a{
+    color: #002;
+}
+nav .lest ul li:hover{
+    text-shadow: 0 0 5px #f40303,0 0 15px #f40303,0 0 25px#f40303,0 0 5px #f40303 ;
+}
+.econs-nav {
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    margin: 0 10px;
+}
+i:hover{ 
+    border-radius: 50%;
+}
+
+.pag1{
+    height: 120vh;
+    background-image: url(img/bg1.png);
+    background-size: cover;
+    
+}
+.pag1{   
+    display: flex;
+    justify-content: center;
+    align-items:safe;
+}
+.imge img{
+    width: 60%;
+    margin: 100px 20px;
+    width:500px;
+}
+.test1 h1{
+    font-size: 100px;
+    font-family: 'Playpen Sans', cursive;
+    height: 70px;
+}
+.test1{
+    padding: 10px;
+    color: rgb(0, 14, 95);
+    
+}
+.test1 h2{
+    font-size:100px ;
+    font-family: 'Playpen Sans', cursive;
+}
+.test1 p{
+    font-family: 'Playpen Sans', cursive;
+    letter-spacing: 0,8px;
+    line-height: 26px;
+}
+.botana{
+    margin: 20px 0;
+}
+.botana button{
+    width: 150px;
+    height: 32px;
+    border-radius: 8px;
+    background-color: blue;
+    border-style: none;
+}
+.botana i{
+    font-size: 20px;
+}
+.econs-pag{
+    margin: 300px 5px;
+    padding: 15px;
+    font-size: 25px;
+}
+#fc{
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+}
+#in{
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+}
+#ti{
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+}
+#tw{
+    background-color: rgb(42, 122, 192);
+    color: white;
+    border-radius: 50%;
+}
+.py{
+    height: 100px;
+}
+.imge{animation: mustapha 2s infinite ;}
+@keyframes mustapha{
+    0%,100%{transform: scale(1);
+    }
+    50%{transform: scale(1.2);}
+}
+
+.lego2{
+    height: 30vh;
+}
+.lego2 h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 80px;
+    color: rgb(24, 24, 94);
+}
+.pag2{
+
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+}
+.boxe1{
+    width: 300px;
+    height: 500px;
+    background-color:rgb(245, 245, 248);
+}
+.boxe1{
+    box-shadow:0 0 5px #03a0f4,0 0 15px #03a0f4,0 0 25px#03a0f4,0 0 5px #03a0f4 ;
+}
+.boxe1 .img1{
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+.img1 img:hover{
+    width: 220px;
+    height: 260px; 
+}
+.img1 img{
+    width: 200px;
+    height: 240px;
+}
+
+.test2 h2{
+    text-align: center;
+    font-size:25px;
+}
+.test2 p{
+    text-align: center;
+    font-family: 'Playpen Sans', cursive;
+}
+.star{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin: 7px 0;
+    color: rgb(163, 240, 8);
+}
+.boana-box{
+    display: flex;
+    justify-content: center;
+}
+.boana-box button{
+    width: 100px;
+    height: 40px;
+    border-style: none;
+    background-color: rgb(8, 8, 81);
+}
+.boana-box button a{
+    color: white;
+}
+.boana-box button:hover{
+    box-shadow:  0 0 5px #f40303,0 0 15px #f40303,0 0 25px#f40303,0 0 5px #f40303 ;
+}
+
+.pag4{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: space-between;
+}
+.CR7 .img-co img{
+    margin: 10px 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.CR7 .star{
+    display:flex;
+    justify-content: left;
+    font-size: 15px;
+}
+.CR7{
+    width: 400px;
+    height: 200px;
+    box-shadow: 5px 5px 4px black;
+}
+.content5{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.colm1 img{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: 10px 10px;
+    border-radius: 10px;
+}
+.colm1 img:hover{
+    box-shadow:  0 0 5px #f40303,0 0 15px #f40303,0 0 25px#f40303,0 0 5px #f40303 ;
+}
+.colm2 img{
+    width: 350px;
+    height: 430px;
+    margin: 10px 10px ;
+    border-radius: 10px;
+}
+.colm3{
+    
+    width: 350px;
+    height: 430px;
+    margin: 10px 10px ;
+    border-radius: 10px;
+    background-color: azure;
+}
+.colm3 h1{
+
+    font-family: 'Playpen Sans', cursive;
+}
+.colm3 p{
+    font-family: 'Playpen Sans', cursive;
+    font-size: 14px;
+}
+#nike{
+    width:100px;
+    height: 50px;
+}
+.coler{
+    display: flex;
+    justify-content: center;
+
+}
+.coler p{
+    margin: 10px 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    
+    
+    
+}
+#bak{
+    background-color: black;
+}
+#red{
+    background-color: red;
+}
+#blo{
+    background-color: #03a0f4;
+}
+#fh{
+    background-color: rgb(200, 255, 0);
+}
+.pag6{
+    width: 100%;
+    height: 40vh;
+    background-color: #002;
+    display: flex;
+    justify-content: space-around;
+    color: rgb(255, 255, 255);
+}
+.strt{
+    display: flex;
+    justify-content: center;
+
+}
+.strt h3 i{
+    font-size: 30px;
+    margin:30px 10px ;
+
+}
+.pag6 h4{
+    color: rgba(255, 255, 255, 0.489);
+    margin: 7px 0;
+}
+.pag6 h4:hover{
+    color: white;
+}
